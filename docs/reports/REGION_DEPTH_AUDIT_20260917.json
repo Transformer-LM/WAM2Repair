@@ -1,0 +1,22 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "train_only_scope_and_unverified_upstream_arrays",
+  "summary": "三train窗口只支持区域深度可优化，不支持RGB/物理/控制提升。",
+  "audited_input_hashes": {
+    "artifacts/gpu_gate_20260917/region_depth_result.json": "f998f039f9be78a1c70bc8c78039b364f9e73a8955024f271e21409c3a84a4c7",
+    "artifacts/gpu_gate_20260917/region_targets_result.json": "3526295f9a493717d8328b0f25e6c9ec083ba651319eb18215da1938ad9cff4d",
+    "implementation/depth_repair_sanity.py": "f0d2fe3742569351624d05898751345a4467df27cac05b9b77e5ff173c5b3d7b",
+    "implementation/build_region_targets.py": "19ec04638cf6bb401fa796331576b3709ddcc065ce8a81484e8289a4fe7f0faa"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-09-17_region/",
+  "agent_id": "/root/region_integrity",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "date": "2026-09-17",
+  "integrity_status": "warn",
+  "checks": {"gt_provenance":"pass_limited_scope","score_normalization":"pass_limited_scope","result_existence":"warn","dead_code":"warn_gate_semantics","scope":"warn","eval_type":"simulation_only_train_only"},
+  "claims": [{"id":"fixed_batch_depth_learnability","impact":"needs_qualifier"},{"id":"rgb_physics_control_gain","impact":"unsupported"}]
+}

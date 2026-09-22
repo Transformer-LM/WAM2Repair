@@ -1,0 +1,25 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_reasoning": "ultra",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "agent_id": "/root/pilot_integrity_audit",
+  "trace_path": ".aris/traces/experiment-audit/2026-09-17_video_pilot/001-integrity.response.md",
+  "date": "2026-09-17",
+  "checks": {
+    "gt_provenance": "pass",
+    "score_normalization": "pass",
+    "result_existence": "warn",
+    "dead_code": "pass",
+    "scope": "warn",
+    "eval_type": "simulation_only",
+    "split_boundary": "warn"
+  },
+  "summary": "No observed fake GT or results; limited scope, manual review incomplete, physical/VLA claims unsupported. Raw improvement does not beat copy/no-WAM.",
+  "full_report": "EXPERIMENT_AUDIT_VIDEO_20260917.md"
+}

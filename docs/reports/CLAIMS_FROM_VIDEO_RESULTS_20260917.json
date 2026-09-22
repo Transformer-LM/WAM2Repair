@@ -1,0 +1,17 @@
+{
+  "claim_supported": "partial",
+  "pilot_executed": "yes",
+  "physical_repair": "no",
+  "future_preservation": "no",
+  "wam_specific_benefit": "no",
+  "vla_benefit": "no",
+  "integrity_status": "warn",
+  "integrity_annotation": "Audit returned after frozen semantic response; attached without changing reviewer judgment.",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "agent_id": "/root/video_result_to_claim",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_reasoning": "ultra",
+  "trace_path": ".aris/traces/result-to-claim/2026-09-17_video_pilot/001-claim.response.md",
+  "routing": "Keep research direction; preserve negative pilot; human blinded physical/interaction review pending, no test tuning or closed-loop gain claim."
+}
