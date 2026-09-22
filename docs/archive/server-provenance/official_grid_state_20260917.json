@@ -1,0 +1,197 @@
+{
+  "jobs": {
+    "t0_e0_policy": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_pilot_20260917T044133Z/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_pilot_20260917T044133Z/trajectory.npz",
+        "result_sha256": "2c36b50489cb0fcaaac52f199bd49475ef5191ddfe9a1f90b57c8c8ada4e22f9",
+        "trajectory_sha256": "4c5bbfd352a89be13ed266f7af987bdb08b9d9c7f3e4bf784b0cac2fcb6b85a7",
+        "success": true,
+        "steps": 104,
+        "gripper_contact_frames": 27
+      }
+    },
+    "t0_e0_hold_gripper_open": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_pilot_20260917T044334Z/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_pilot_20260917T044334Z/trajectory.npz",
+        "result_sha256": "29b34f58dded7b608d7a7a432ec879fd67b18c1e12dce464059d42dba611491d",
+        "trajectory_sha256": "441db4f9af2c1804388a479ac4ca4ecde525bc92e75a0f130dbb81aaa40a47c0",
+        "success": false,
+        "steps": 220,
+        "gripper_contact_frames": 162
+      }
+    },
+    "t0_e1_policy": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e1_policy_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e1_policy_20260917/trajectory.npz",
+        "result_sha256": "86e1961b644837955a389d146b7a38a5619a61aedbcb2f4eb1e66c6f77d2d70e",
+        "trajectory_sha256": "fc825c9889a3a8f9b732b2fbec1dd9b19f66a3e306f67f8caee761ed4e0724ab",
+        "success": true,
+        "steps": 106,
+        "gripper_contact_frames": 33
+      }
+    },
+    "t0_e1_hold_gripper_open": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e1_hold_gripper_open_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e1_hold_gripper_open_20260917/trajectory.npz",
+        "result_sha256": "c181e52baaa6f290c431e42d99b8686d953f1aefe59141b2ed1c9ad2476e860a",
+        "trajectory_sha256": "591198c49cd7fd3b60b068300dfae2cf5fd20d8d876e4baed2454180f13683fc",
+        "success": false,
+        "steps": 220,
+        "gripper_contact_frames": 170
+      }
+    },
+    "t0_e2_policy": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e2_policy_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e2_policy_20260917/trajectory.npz",
+        "result_sha256": "f7fdd8a43a1b948e606f9e89fe88e8693437feb376554c9596e07a0964ea32af",
+        "trajectory_sha256": "40424eeef8473b966b3c8c42ee722a6c780aad819e47508e3af144659a7f602c",
+        "success": true,
+        "steps": 108,
+        "gripper_contact_frames": 37
+      }
+    },
+    "t0_e2_hold_gripper_open": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e2_hold_gripper_open_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e2_hold_gripper_open_20260917/trajectory.npz",
+        "result_sha256": "d3f2edd0e3c4d104ab87e2d4e3b35acfe454cf18eb6ae4762f44822fc0114c7e",
+        "trajectory_sha256": "dc50b4e5e87438b748ca2a0ba09948459caa97d70b492dd9a704819cc5de03c9",
+        "success": false,
+        "steps": 220,
+        "gripper_contact_frames": 179
+      }
+    },
+    "t0_e3_policy": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e3_policy_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e3_policy_20260917/trajectory.npz",
+        "result_sha256": "68f81e730774b2b4a61ac2816263742fbf9866c6b59dc7d0db9dcaa7c4b22d00",
+        "trajectory_sha256": "406a039259e1c45a6dc0c28ff6a74d7c112d63f81df18051804de5f718a1e166",
+        "success": true,
+        "steps": 75,
+        "gripper_contact_frames": 30
+      }
+    },
+    "t0_e3_hold_gripper_open": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e3_hold_gripper_open_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t0_e3_hold_gripper_open_20260917/trajectory.npz",
+        "result_sha256": "8b1adee14fb0690fb770c312e2a2c1b220b3a35581fa1e5f9184d8a9a2a58c66",
+        "trajectory_sha256": "444b73e0582e55e1ba0271f1f24bbdd5c15b3c9b303c41fac79d315dfc44eaf1",
+        "success": false,
+        "steps": 220,
+        "gripper_contact_frames": 178
+      }
+    },
+    "t1_e0_policy": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e0_policy_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e0_policy_20260917/trajectory.npz",
+        "result_sha256": "0f8b5ee711ce94a08ce414e8563b788e514c60ddd212b28ad62656855c88fe7a",
+        "trajectory_sha256": "4aff577492055621c7007ed89e34c0eed3d415fa6a9132b97dc4e2ba91e4cf98",
+        "success": true,
+        "steps": 116,
+        "gripper_contact_frames": 63
+      }
+    },
+    "t1_e0_hold_gripper_open": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e0_hold_gripper_open_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e0_hold_gripper_open_20260917/trajectory.npz",
+        "result_sha256": "bf9afea92b9173c486659d6406f6e35128572e3866003d5e0f0abfd8d2c687ca",
+        "trajectory_sha256": "24051770b3830b2d5bd262e235a103b9c05e01dc80a726d57f7d6e46446eb193",
+        "success": false,
+        "steps": 220,
+        "gripper_contact_frames": 89
+      }
+    },
+    "t1_e1_policy": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e1_policy_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e1_policy_20260917/trajectory.npz",
+        "result_sha256": "20abdba9bcc1c9cdf75449dd8c6163af6a4c9696e426c7ae3d1b88cb66c70404",
+        "trajectory_sha256": "fadc141f2442f498bfa695a7515a05b7ed1e8d7baf23772b9d90f2f150b6aa5a",
+        "success": true,
+        "steps": 97,
+        "gripper_contact_frames": 48
+      }
+    },
+    "t1_e1_hold_gripper_open": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e1_hold_gripper_open_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e1_hold_gripper_open_20260917/trajectory.npz",
+        "result_sha256": "08c25962de9c294e33f177ed6f345539b380a0bd0555216aa151dd89fab78e3e",
+        "trajectory_sha256": "ab5ed3e04c67e0d92e137655e5299926eb898034b927fab03496d519825a9c9a",
+        "success": false,
+        "steps": 220,
+        "gripper_contact_frames": 161
+      }
+    },
+    "t1_e2_policy": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e2_policy_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e2_policy_20260917/trajectory.npz",
+        "result_sha256": "d2e620299bdab4d58487b2e2cc061304a35f0ad8aedd035b9f8da695c9b37a14",
+        "trajectory_sha256": "2cdee93b12b12789062a741a4c09ae4a1429575d884e006c3af3735e5b1f88b7",
+        "success": true,
+        "steps": 106,
+        "gripper_contact_frames": 53
+      }
+    },
+    "t1_e2_hold_gripper_open": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e2_hold_gripper_open_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e2_hold_gripper_open_20260917/trajectory.npz",
+        "result_sha256": "401666bc7d3a6b45589f623432df12b5ef5611f566c5f0f92730767ab5918c64",
+        "trajectory_sha256": "d6d86758001db74dce272c7d4bc9d832dbf2f6ede2874ff7ffe4dcd9401e81ee",
+        "success": false,
+        "steps": 220,
+        "gripper_contact_frames": 73
+      }
+    },
+    "t1_e3_policy": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e3_policy_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e3_policy_20260917/trajectory.npz",
+        "result_sha256": "964049083f51ced6e4e5f60905cc645be95837973c898bacff45ba6e54a1672a",
+        "trajectory_sha256": "736f50741099c28cb9ba594824e54e7acb3eb6aa41f4e9554083e81296610efa",
+        "success": true,
+        "steps": 107,
+        "gripper_contact_frames": 51
+      }
+    },
+    "t1_e3_hold_gripper_open": {
+      "status": "completed",
+      "evidence": {
+        "result": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e3_hold_gripper_open_20260917/result.json",
+        "trajectory": "__WAM2REPAIR_ROOT__/results/wam2repair/official_grid_t1_e3_hold_gripper_open_20260917/trajectory.npz",
+        "result_sha256": "8988fe7266fcb5f9385bd6ba71c8c73549b1718084f4097ce4804c1414c21425",
+        "trajectory_sha256": "3e3efefd3f5ef203c99f066361c36f518c5f0c88b3fd4fdd0a931a37c7bfb9ff",
+        "success": false,
+        "steps": 220,
+        "gripper_contact_frames": 164
+      }
+    }
+  },
+  "status": "ALL_COMPLETED"
+}
