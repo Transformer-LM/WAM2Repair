@@ -1,0 +1,6 @@
+# Copy into a private runtime configuration and replace the placeholders.
+assets: __LIBERO_ROOT__/libero/libero/assets
+bddl_files: __LIBERO_ROOT__/libero/libero/bddl_files
+benchmark_root: __LIBERO_ROOT__/libero
+datasets: __LIBERO_ROOT__/libero/libero/datasets
+init_states: __LIBERO_ROOT__/libero/libero/init_files

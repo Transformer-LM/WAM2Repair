@@ -1,0 +1,4 @@
+# Keep launchers and source stable when cloned from Windows onto a Linux server.
+* text=auto eol=lf
+*.png binary
+*.gif binary

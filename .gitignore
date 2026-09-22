@@ -1,0 +1,38 @@
+# Python and generated runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runtime/
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credential*
+scripts/openpi_config_py.py
+scripts/openpi_config_remote.py
+
+# Data, model weights, checkpoints, and generated rollouts
+data/
+datasets/
+artifacts/
+outputs/
+results/raw/
+checkpoints/
+cache/
+logs/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/

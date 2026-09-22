@@ -1,0 +1,15 @@
+{
+  "schema_version": "wam2repair-4d-v2-draft1",
+  "status": "DESIGN_ONLY_NOT_COLLECTED",
+  "model_output": "repaired_rgb_video",
+  "known_geometry_assumption": true,
+  "input_allowlist": ["current_rgb", "current_robot_proprio", "current_robot_joints_if_available", "language", "candidate_actions", "wam_rgb_video", "estimated_geometry_from_allowed_inputs", "estimated_geometry_confidence"],
+  "privileged_target_fields": ["future_rgb", "future_depth_m", "future_instance_and_link_segmentation", "future_object_and_robot_link_transforms", "future_camera_extrinsics", "canonical_point_tracks", "visibility", "contact_pairs_events", "collision_distance_with_validity", "actual_outcome"],
+  "required_metadata": ["scene_group", "split", "snapshot_ids", "timestamps", "control_timestep", "physics_timestep", "camera_intrinsics", "image_coordinate_transform", "action_hash", "wam_checkpoint_hash", "generation_seed", "source_hashes", "geometry_asset_hashes", "geometry_symmetries", "label_validity", "label_confidence"],
+  "wam_interface": {"actions_per_window": 16, "prediction_frame_offsets": [0,4,8,12,16], "dense_factual_at_control_ticks": true, "long_horizon_validated": false},
+  "labels": {"depth_units": "meters", "rotation_space": "SO3_modulo_object_symmetry", "unknown_is_not_zero": true, "contact_is_not_grasp_success": true, "task_failure_is_not_wam_error": true, "sdf_requires_valid_geometry_and_tolerance": true},
+  "pilot_target": {"tasks": 4, "scene_groups_per_task": 12, "execution_modes_per_group": 2, "trajectories": 96, "split_groups_per_task": {"train": 8, "validation": 2, "sealed_test": 2}, "counts_subject_to_cross_task_group_dedup": true},
+  "d0_target": {"object_families": 2, "new_initial_states_each": 2, "execution_modes": 2, "trajectories": 8, "split": "development_train_only"},
+  "generation_gate": ["synchronized_snapshot_witness", "calibrated_projection", "valid_collision_geometry", "verified_action_and_frame_alignment", "prediction_geometry_parser_calibration", "scene_group_split_lock"],
+  "collected_v2_trajectories": 0
+}
